@@ -11,6 +11,15 @@ This application has two main features:
 
 Please check the demo videos below to see that in action.
 
+**STT Demo**
+https://github.com/mallahyari/RealtimeSTT-TTS/assets/28068313/1a85b220-116c-47f8-bed3-96fdeccebcfc
+
+**TTS Demo**
+
+https://github.com/mallahyari/RealtimeSTT-TTS/assets/28068313/03b36cc8-86a4-463f-9e67-43c929be3bad
+
+
+
 ## Use cases
 
 You can use STT for **real time** chat applications, or any application that you would like to use your voice to command. TTS also can be used for interesting use cases like **creating audible stories or books** from text.
