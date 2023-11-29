@@ -1,7 +1,5 @@
 # VoxSwift: A RealtimeSTT-TTS Application
 
----
-
 An easy to use, real time speech-to-text (STT) and text-to-speech (TTS) application.
 
 ## Description
