@@ -49,7 +49,6 @@ async def get_audio_chunk(websocket: WebSocket):
     except WebSocketDisconnect as e:
         # WebSocket was closed by the client
         print(f"WebSocket disconnected: {e}")
-        pass
     except Exception as e:
         error_message = f'Could not process audio: {e}'
         await websocket.send_text(error_message)
@@ -68,7 +67,7 @@ def transcribe_audio_with_openai(audio_chunk: bytes, language="en") -> str:
     - str: The transcribed text.
     """
     try:
-        with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as temp_file:
+        with tempfile.NamedTemporaryFile(suffix=".mp3", delete=True) as temp_file:
             temp_file.write(audio_chunk)
             temp_file_path = temp_file.name
             

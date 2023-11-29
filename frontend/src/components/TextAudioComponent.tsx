@@ -80,10 +80,10 @@ export default function TextAudioComponent() {
         audioChunks.push(event.data);
         // Send audio data to the backend via WebSocket
         const blob = new Blob(audioChunks, { type: 'audio/mpeg' });
-        const file = new File([blob], 'speech.mp3', {
-          type: 'audio/mpeg',
-        });
-        sendMessage(file);
+        // const file = new File([blob], 'speech.mp3', {
+        //   type: 'audio/mpeg',
+        // });
+        sendMessage(blob);
       }
     });
 
@@ -95,7 +95,7 @@ export default function TextAudioComponent() {
     };
 
     mediaRecorderRef.current = mediaRecorder;
-    mediaRecorder.start(1000);
+    mediaRecorder.start(2000);
   };
 
   const handleStopRecording = async () => {
