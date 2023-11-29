@@ -12,6 +12,7 @@ This application has two main features:
 Please check the demo videos below to see that in action.
 
 **STT Demo**
+
 https://github.com/mallahyari/RealtimeSTT-TTS/assets/28068313/1a85b220-116c-47f8-bed3-96fdeccebcfc
 
 **TTS Demo**
