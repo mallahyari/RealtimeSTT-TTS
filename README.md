@@ -19,8 +19,6 @@ https://github.com/mallahyari/RealtimeSTT-TTS/assets/28068313/1a85b220-116c-47f8
 
 https://github.com/mallahyari/RealtimeSTT-TTS/assets/28068313/03b36cc8-86a4-463f-9e67-43c929be3bad
 
-
-
 ## Use cases
 
 You can use STT for **real time** chat applications, or any application that you would like to use your voice to command. TTS also can be used for interesting use cases like **creating audible stories or books** from text.
@@ -54,6 +52,12 @@ In order to use OpenAI Whisper API, you will need to enter your `OPENAI_API_KEY`
 ```bash
 OPENAI_API_KEY=
 ```
+
+## Future Improvements
+
+- Voice activity detection: Detecting whether the user is speaking or not
+- Wake word activation
+- Better UI for more use cases
 
 ## Discussion and Contribution
 
