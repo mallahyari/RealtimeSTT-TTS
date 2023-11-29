@@ -1,0 +1,11 @@
+fastapi[all]
+langchain
+pydantic
+qdrant_client
+sentence_transformers
+uvicorn
+structlog
+insanely-fast-whisper
+faster-whisper
+
+

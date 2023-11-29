@@ -1,0 +1,13 @@
+**/__pycache__/
+backend/app/styleTTS2/Models/
+backend/app/styleTTS2/Utils
+backend/**/__pycache__/
+/managed_context
+/test_suite_analysis
+
+.vscode
+backend/.env
+backend/.DS_Store
+.DS_Store
+.env.local
+.env
